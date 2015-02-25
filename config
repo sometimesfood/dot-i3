@@ -140,3 +140,6 @@ workspace  4 output DVI-I-2
 workspace  6 output DVI-I-2
 workspace  8 output DVI-I-2
 workspace 10 output DVI-I-2
+
+# disable mouse warping
+mouse_warping none
