@@ -143,3 +143,6 @@ workspace 10 output DVI-I-2
 
 # disable mouse warping
 mouse_warping none
+
+# disable window decorations
+new_window pixel 1
