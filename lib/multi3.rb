@@ -14,7 +14,7 @@ module Multi3
       when 'switch'
         manager.switch_to_vws(target)
       when 'move'
-        raise NotImplementedError, 'Sorry, not yet implemented'
+        manager.move_to_vws(target)
       end
     end
 

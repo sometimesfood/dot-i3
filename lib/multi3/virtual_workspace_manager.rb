@@ -17,6 +17,12 @@ module Multi3
       `i3-msg #{command}`
     end
 
+    def move_to_vws(name)
+      focused_output = @focused_workspace['output']
+      command = @vws[name].move(focused_output)
+      `i3-msg #{command}`
+    end
+
     private
 
     def active_outputs(outputs)

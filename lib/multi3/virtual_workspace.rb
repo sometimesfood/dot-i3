@@ -10,5 +10,10 @@ module Multi3
       unfocused_ws = @pws.map { |o, ws| ws if o != focused_output }.compact
       (unfocused_ws + focused_ws).map { |ws| "workspace #{ws}"}
     end
+
+    def move(focused_output)
+      pws = @pws[focused_output]
+      "move container to workspace #{pws}"
+    end
   end
 end
