@@ -156,3 +156,6 @@ mouse_warping none
 
 # disable window decorations
 new_window pixel 1
+
+# start tools at login
+exec dropbox start
